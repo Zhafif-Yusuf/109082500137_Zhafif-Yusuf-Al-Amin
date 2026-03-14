@@ -29,7 +29,7 @@ func main() {
 	fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
 
-### Output Unguided : dua tiga satu
+### Output Unguided :
 
 ##### Output 
 ![Screenshot Output modul2A]https://github.com/Zhafif-Yusuf/109082500137_Zhafif-Yusuf-Al-Amin/blob/main/modul2/output/outputModul2A.png
