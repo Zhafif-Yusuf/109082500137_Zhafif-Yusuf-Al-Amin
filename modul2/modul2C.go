@@ -3,18 +3,27 @@ package main
 import "fmt"
 
 func main() {
-	var warna1, warna2, warna3, warna4 string
-	urutan := true
-	for i := 1; i <= 5; i++ {
-		fmt.Print("Percobaan ", i, " : ")
-		fmt.Scan(&warna1, &warna2, &warna3, &warna4)
-		if warna1 == "merah" && warna2 == "kuning" && warna3 == "hijau" && warna4 == "ungu" {
-			urutan = urutan
-		} else {
-			urutan = false
-		}
+	var parsel int
+	var biayag int
+	fmt.Print("Berat parsel (gram): ")
+	fmt.Scan(&parsel)
+	berat := parsel / 1000
+	gram := parsel % 1000
 
+	biayak := berat * 10000
+	if gram >= 500 {
+		biayag = gram * 5
+	} else if gram < 500 {
+		biayag = gram * 15
+	} 
+	 if berat>10{
+		biayag = gram*0
 	}
-	fmt.Print(urutan)
+	total := biayak + biayag
+	
+	fmt.Println("Detail berat: " ,berat, " kg + ", gram, " gr ")
+	fmt.Println(gram)
+	fmt.Println(biayag)
+	fmt.Println(total)
 
 }
