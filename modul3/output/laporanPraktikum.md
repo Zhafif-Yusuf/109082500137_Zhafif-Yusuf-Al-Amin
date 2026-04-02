@@ -74,7 +74,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output soal2](https://github.com/Zhafif-Yusuf/109082500137_Zhafif-Yusuf-Al-Amin/blob/main/modul3/output/outputSoal1.png)
+![Screenshot Output soal2](https://github.com/Zhafif-Yusuf/109082500137_Zhafif-Yusuf-Al-Amin/blob/main/modul3/output/outputSoal2.png)
 sebuah kode untuk menghitung hasil fungsi komposisi yang menerima inputan 3 angka dari 3 variabel berbeda dan menampilkan output sesuai rumus yang sudah dibuat padafungsi tersendiri diluar fungsi utama. Fungsi f digunakan untuk menghitung kuadrat suatu bilangan, yaitu mengalikan nilai dengan dirinya sendiri (x²). Fungsi g digunakan untuk mengurangi suatu bilangan dengan nilai 2 (x − 2). Fungsi h digunakan untuk menambahkan suatu bilangan dengan nilai 1 (x + 1).
 
 ### 3. [soal3]
