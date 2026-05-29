@@ -19,7 +19,7 @@ func main() {
 		}
 
 		fmt.Printf("%.2f ", total)
-		totalSemua += tota
+		totalSemua += total
 		jumlahWadah++
 	}
 	fmt.Println()
